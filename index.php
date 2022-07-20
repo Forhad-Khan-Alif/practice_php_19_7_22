@@ -10,8 +10,8 @@
     <h1><a href="https://www.w3schools.com/php/" target="_blank">PHP (w3Schools)</a> <a href="https://youtu.be/_TST9dVptls" target="_blank">PHP For Absolute Beginners in Bangla | PHP Crash Course In 2 Hours (Procoder BD)</a></h1>
     <hr>
     <?php
-        $food = "Pizza"; 
-        echo 'I Love ' . $food .'<br>';
+        // $food = "Pizza"; 
+        // echo 'I Love ' . $food .'<br>';
 
         // PHP Comments...............................
         // phpinfo();
@@ -301,7 +301,7 @@
 
         // var_dump($x >= $y);
 
-        
+
 
         // $x = 500;
         // $y = 50;
@@ -316,6 +316,262 @@
         // var_dump($x <= $y);
 
 
+        // PHP If & else Statements...............................
+        // $date = date('H');
+
+        // if(5<6){
+        //     echo 'Good Morning';
+        // }
+
+
+
+        // $date = date('H');
+
+        // if(5>6){
+        //     echo 'Good Morning';
+        // }
+
+
+
+        // $date = date('H');
+
+        // if(5>6){
+        //     echo 'Good Morning';
+        // } else{
+        //     echo 'Have a nice day.';
+        // }
+
+
+
+        // $date = date('H');
+
+        // if(5<6){
+        //     echo 'Good Morning';
+        // } else{
+        //     echo 'Have a nice day.';
+        // }
+
+
+
+        // $date = date('H');
+
+        // if($date < 19){
+        //     echo 'Good Morning';
+        // } else{
+        //     echo 'Have a nice day.';
+        // }
+
+
+
+        // $date = date('H');
+
+        // if($date > 19){
+        //     echo 'Good Morning';
+        // } else{
+        //     echo 'Have a nice day.';
+        // }
+
+
+
+        // $date = date('H');
+
+        // if($date < 19){
+        //     echo 'Good Morning'. $date;
+        // } else{
+        //     echo 'Have a nice day.';
+        // }
+
+
+
+        // $date = date('H');
+
+        // if(22 < 19){
+        //     echo 'Good Morning';
+        // } elseif(22 < 25){
+        //     echo 'nice day.';
+        // }
+        
+        // else{
+        //     echo 'Have a nice day.';
+        // }
+
+
+
+        // $date = date('H');
+
+        // if(22 < 19){
+        //     echo 'Good Morning';
+        // } elseif(22 < 21){
+        //     echo 'nice day.';
+        // }
+        
+        // else{
+        //     echo 'Have a nice day.';
+        // }
+
+
+        // PHP Switch Statements...............................
+        // switch('red'){
+        //     case 'red':
+        //         echo 'Apple is red';
+        // }
+
+
+
+        // switch('green'){
+        //     case 'red':
+        //         echo 'Apple is red';
+        //     default:
+        //     echo 'I love to eat fruits';
+        // }
+
+
+
+        // switch('green'){
+        //     case 'red':
+        //         echo 'Apple is red';
+        //     case 'green':
+        //         echo 'Mango is green';
+        //     default:
+        //     echo 'I love to eat fruits';
+        // }
+
+
+
+        // switch('green'){
+        //     case 'red':
+        //         echo 'Apple is red';
+        //         break;
+        //     case 'green':
+        //         echo 'Mango is green';
+        //         break;
+        //     default:
+        //     echo 'I love to eat fruits';
+        // }
+
+
+
+        // switch('blue'){
+        //     case 'red':
+        //         echo 'Apple is red';
+        //         break;
+        //     case 'green':
+        //         echo 'Mango is green';
+        //         break;
+        //     default:
+        //     echo 'I love to eat fruits';
+        // }
+
+
+
+        // PHP loops...............................
+        // $x = 2;
+
+        // while($x <= 5){
+        //     echo "The number is: $x <br>";
+        //     $x++;
+        // }
+
+
+        // $x = 2;
+
+        // do{
+        //     echo "The number is: $x <br>";
+        //     $x++;
+        // } while($x <= 5);
+
+
+
+
+    
+        // for($y = 0; $y <= 10; $y++){
+        //     echo "The number is: $y <br>";
+        // }
+
+
+
+
+        // for($y = 0; $y <= 10; $y+=5){
+        //     echo "The number is: $y <br>";
+        // }
+
+
+
+        // for($y = 0; $y <= 10; $y+=10){
+        //     echo "The number is: $y <br>";
+        // }
+
+
+        // for($y = 0; $y <= 10; $y-=2){
+        //     echo "The number is: $y <br>";
+        // }
+
+
+
+        // for($y = 0; $y <= 10; $y+=2){
+        //         echo "The number is: $y <br>";
+        //     }
+
+
+
+        // PHP Functions...............................
+        // function test_name(){
+        //     echo "This is function";
+        // }
+        // test_name();
+
+
+
+        // function test_name($name){
+        //     echo "This is function. $name";
+        // }
+        // test_name("Forhad");
+        // test_name("Khan");
+
+
+
+        // function test_name($name){
+        //     echo "This is function. $name <br>";
+        // }
+        // test_name("Forhad");
+        // test_name("Khan");
+
+
+
+        // function test_name($name, $age){
+        //     echo "This is function. $name and his age is $age <br>";
+        // }
+        // test_name("Forhad", 21);
+        // test_name("Khan", 14);
+
+
+
+        // function test_name($name, $age = 2){
+        //     echo "This is function. $name and his age is $age <br>";
+        // }
+        // test_name("Forhad", 21);
+        // test_name("Khan", 14);
+        // test_name("Alif");
+
+
+
+        // PHP Date and Time...............................
+        // echo "Today is " .date("1") . "<br>";
+
+        // echo "Today is " .date("d/m/Y") . "<br>";
+
+        // echo "Today is " .date("d.m.Y") . "<br>";
+
+        // echo "Today is " .date("d-m-Y") . "<br>";
+
+        // echo "Today is " .date("Y") . "<br>";
+
+        // echo "Today is " .date("h:i:sa") . "<br>";
+
+        echo "Today is " .date("d-m-Y") . "<br>";
+
+        date_default_timezone_set("Asia/Dhaka");
+        echo "Time is " .date("h:i:sa") . "<br>";
 
     ?>
 </body>
